@@ -1,203 +1,236 @@
-.TelaToda {
-  position: relative;
-}
-.imgfundo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-/* .tudo {
-  position: relative;
-  z-index: 1;
-} */
-
-.container {
-  box-sizing: border-box;
-  position: relative;
-  width: 50%;
-  height: 500px;
-  background-color: rgba(220, 220, 220, 1); /*deixei transparente*/
-  border-radius: 15px; /*modifiquei para 15 antes tava 10 */
-  margin-left: 25%;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  z-index: 1;
+.TelaToda
+{
+	position:relative
 }
 
-/* Retangular 1 */
-
-.retangulo1 {
-  position: absolute;
-  display: block;
-  margin: 0% 25%;
-  padding-top: 5%;
-  width: 50%;
-  height: 200px;
-  background-color: white;
-  margin-top: 25px;
-  border-radius: 8px;
+.imgfundo
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	z-index:0
 }
 
-.retangulo1 > .bySide {
-  display: flex;
-  padding: 1% 15%;
-  /* margin-left: ; */
-  margin-bottom: 2%;
-  justify-content: space-between;
+.container
+{
+	box-sizing:border-box;
+	position:relative;
+	width:50%;
+	height:500px;
+	background-color:rgba(220,220,220,1);
+	border-radius:15px;
+	margin-left:25%;
+	margin-top:50px;
+	margin-bottom:100px;
+	z-index:1
 }
-.servicos1 {
-  position: relative;
-  margin-left: 17%;
-  font-size: 30px;
-}
-.carrinhoCompra {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  margin-top: -2%;
-  margin-right: 4%;
-}
-.precoDesconto {
-  margin: 3% 15%;
-  width: 90%;
-}
-.corte-de-cabelo-container {
-  width: 87%;
-}
-.corteCabelo {
-  font-size: 1em;
-  margin-left: 9%;
-  width: 100%;
-}
-.desconto-cutpoints {
-  width: 90%;
-}
-.descontoCut {
-  font-size: 1em;
-  width: 100%;
-  margin-left: 3%;
-}
-.linha {
-  background-color: black;
-  width: 85%;
-  height: 1px;
-  margin-left: 7%;
-}
-.total {
-  margin: 3% 25%;
-  width: 50%;
-  margin-left: 32%;
-}
-/* Retangular 1 */
 
-/* Retangular 2 */
+.retangulo1
+{
+	position:absolute;
+	display:block;
+	margin:0 25%;
+	padding-top:5%;
+	width:50%;
+	height:200px;
+	background-color:#fff;
+	margin-top:25px;
+	border-radius:8px
+}
 
-.retangulo2 {
-  position: absolute;
-  display: block;
-  background-color: white;
-  width: 50%;
-  height: 45%;
-  /* margin: 50%; */
-  margin: 250px 25%;
-  padding: auto;
-  text-align: center;
-  border-radius: 8px;
+.retangulo1 > .bySide
+{
+	display:flex;
+	padding:1% 15%;
+	margin-bottom:2%;
+	justify-content:space-between
 }
-.formaPagamento {
-  background-color: rgba(220, 220, 220, 1);
-  width: 80%;
-  margin-top: 3%;
-  margin-left: 11%;
-  margin-bottom: 5%;
-  padding: 2% 0%;
+
+.servicos1
+{
+	position:relative;
+	margin-left:17%;
+	font-size:30px
 }
-.Dinheiro-fisico {
-  background-color: rgba(220, 220, 220, 1);
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: 15%;
-  height: 40px;
-  border: 1.3px solid rgb(117, 117, 117);
+
+.carrinhoCompra
+{
+	position:relative;
+	width:40px;
+	height:40px;
+	margin-top:-2%;
+	margin-right:4%
 }
-.Dinheiro-fisico:hover {
-  background-color: #757575;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
+
+.precoDesconto
+{
+	margin:3% 15%;
+	width:90%
 }
-.DinheiroImg {
-  margin-left: 10px;
+
+.corte-de-cabelo-container
+{
+	width:87%
 }
-.dinheiro-fisico {
-  margin-top: 10px;
-  margin-right: 50px;
-  white-space: nowrap;
+
+.corteCabelo
+{
+	font-size:1em;
+	margin-left:9%;
+	width:100%
 }
-.Cartao-pagamento {
-  background-color: rgba(220, 220, 220, 1);
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: 15%;
-  height: 40px;
-  border: 1.3px solid rgb(117, 117, 117);
+
+.desconto-cutpoints
+{
+	width:90%
 }
-.Cartao-pagamento:hover {
-  background-color: #757575;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
+
+.descontoCut
+{
+	font-size:1em;
+	width:100%;
+	margin-left:3%
 }
-.CartaoImg {
-  margin-left: 10px;
+
+.linha
+{
+	background-color:#000;
+	width:85%;
+	height:1px;
+	margin-left:7%
 }
-.carto {
-  margin-top: 10px;
-  margin-right: 109px;
+
+.total
+{
+	margin:3% 25%;
+	width:50%;
+	margin-left:32%
 }
-.Pix-pagamento {
-  background-color: rgba(220, 220, 220, 1);
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: 15%;
-  height: 40px;
-  border: 1.3px solid rgb(117, 117, 117);
+
+.retangulo2
+{
+	position:absolute;
+	display:block;
+	background-color:#fff;
+	width:50%;
+	height:45%;
+	margin:250px 25%;
+	padding:auto;
+	text-align:center;
+	border-radius:8px
 }
-.Pix-pagamento:hover {
-  background-color: #757575;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
+
+.formaPagamento
+{
+	background-color:rgba(220,220,220,1);
+	width:80%;
+	margin-top:3%;
+	margin-left:11%;
+	margin-bottom:5%;
+	padding:2% 0
 }
-.PixImg {
-  margin-left: 10px;
+
+.Dinheiro-fisico
+{
+	background-color:rgba(220,220,220,1);
+	display:flex;
+	justify-content:space-between;
+	width:70%;
+	margin-left:15%;
+	height:40px;
+	border:1.3px solid #757575
 }
-.pix {
-  margin-top: 10px;
-  margin-right: 130px;
+
+.Dinheiro-fisico:hover
+{
+	background-color:#757575;
+	border-color:#000;
+	transition:background-color 0.3s,color .3s
 }
-.escolha div {
-  margin-top: 10px;
-  margin-left: 53px;
+
+.DinheiroImg
+{
+	margin-left:10px
 }
-/* .proximo {
-  margin-left: 140px;
-  margin-top: 15px;
-  padding: 10px;
-  border-radius: 10px;
-  width: 30%;
-  background-color: rgba(58, 189, 11, 1);
-  border-color: rgba(58, 189, 11, 1);
-  color: white;
-} */
-.proximo:hover {
-  background-color: #1d5f06;
-  border-color: #3abd0b;
-  transition: background-color 0.3s, color 0.3s;
+
+.dinheiro-fisico
+{
+	margin-top:10px;
+	margin-right:50px;
+	white-space:nowrap
 }
-/* Retangular 2 */
+
+.Cartao-pagamento
+{
+	background-color:rgba(220,220,220,1);
+	display:flex;
+	justify-content:space-between;
+	width:70%;
+	margin-left:15%;
+	height:40px;
+	border:1.3px solid #757575
+}
+
+.Cartao-pagamento:hover
+{
+	background-color:#757575;
+	border-color:#000;
+	transition:background-color 0.3s,color .3s
+}
+
+.CartaoImg
+{
+	margin-left:10px
+}
+
+.carto
+{
+	margin-top:10px;
+	margin-right:109px
+}
+
+.Pix-pagamento
+{
+	background-color:rgba(220,220,220,1);
+	display:flex;
+	justify-content:space-between;
+	width:70%;
+	margin-left:15%;
+	height:40px;
+	border:1.3px solid #757575
+}
+
+.Pix-pagamento:hover
+{
+	background-color:#757575;
+	border-color:#000;
+	transition:background-color 0.3s,color .3s;
+	cursor:pointer
+}
+
+.PixImg
+{
+	margin-left:10px
+}
+
+.pix
+{
+	margin-top:10px;
+	margin-right:130px
+}
+
+.escolha div
+{
+	margin-top:10px;
+	margin-left:53px
+}
+
+.proximo:hover
+{
+	background-color:#1d5f06;
+	border-color:#3abd0b;
+	transition:background-color 0.3s,color .3s
+}
